@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Hogwarts-School/static/css/main.b17758a2.css",
+    "main.js": "/Hogwarts-School/static/js/main.da395be2.js",
+    "static/js/453.00a81ccd.chunk.js": "/Hogwarts-School/static/js/453.00a81ccd.chunk.js",
+    "index.html": "/Hogwarts-School/index.html",
+    "main.b17758a2.css.map": "/Hogwarts-School/static/css/main.b17758a2.css.map",
+    "main.da395be2.js.map": "/Hogwarts-School/static/js/main.da395be2.js.map",
+    "453.00a81ccd.chunk.js.map": "/Hogwarts-School/static/js/453.00a81ccd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b17758a2.css",
+    "static/js/main.da395be2.js"
+  ]
+}
