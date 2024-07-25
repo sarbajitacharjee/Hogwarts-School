@@ -1,9 +1,9 @@
-// src/pages/Admissions.js
+
 import React from 'react';
 import { HiDocumentDownload, HiCalendar } from 'react-icons/hi';
 
 const Admissions = () => (
-  <div className="admissions-page bg-gradient-to-r from-blue-50 to-blue-100 min-h-screen p-6 lg:p-12">
+  <div className="admissions-page bg-gradient-to-r from-red-300 to-blue-200 min-h-screen p-6 lg:p-12">
     <div className="container mx-auto">
       <h1 className="text-4xl font-extrabold text-gray-900 mb-8 text-center">Admissions</h1>
       
@@ -11,18 +11,18 @@ const Admissions = () => (
         <h2 className="text-3xl font-semibold text-gray-800 mb-4 flex items-center">
           <HiCalendar className="text-blue-600 mr-3" /> Admission Process
         </h2>
-        <p className="text-gray-700 leading-relaxed">
+        <p className="text-gray-700 text-lg leading-relaxed">
           {/* Add details about the admission process here */}
           Our admission process is designed to be straightforward and efficient. We invite you to explore our requirements and prepare your application with care. For more detailed information, please refer to our guidelines and steps outlined below.
         </p>
       </section>
       
       <section className="forms mb-12 bg-white shadow-lg rounded-lg p-6">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4 flex items-center">
+        <h2 className="text-3xl font-semibold text-gray-900 mb-4 flex items-center">
           <HiDocumentDownload className="text-blue-600 mr-3" /> Admission Forms
         </h2>
         <a 
-          href="/path/to/form.pdf" 
+          href="./images/form.pdf" 
           className="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg shadow-lg text-lg font-semibold hover:bg-blue-600 transition duration-300 ease-in-out  items-center justify-center"
           download
         >
@@ -30,11 +30,11 @@ const Admissions = () => (
         </a>
       </section>
       
-      <section className="important-dates bg-white shadow-lg rounded-lg p-6">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4 flex items-center">
+      <section className="important-dates text-lg bg-white shadow-lg rounded-lg p-6">
+        <h2 className="text-3xl font-semibold text-gray-900 mb-4 flex items-center">
           <HiCalendar className="text-blue-600 mr-3" /> Important Dates
         </h2>
-        <p className="text-gray-700 leading-relaxed mb-4">
+        <p className="text-gray-900 leading-relaxed mb-4">
           {/* Add important dates and deadlines here */}
           Keep track of key dates to ensure your application is submitted on time. Here are some important deadlines to remember:
         </p>

@@ -1,4 +1,4 @@
-// src/pages/Students.js
+
 import React from 'react';
 
 const Students = () => (

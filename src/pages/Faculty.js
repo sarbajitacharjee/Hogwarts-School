@@ -1,4 +1,4 @@
-// src/pages/Faculty.js
+
 import React from 'react';
 
 const Faculty = () => (

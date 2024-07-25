@@ -1,8 +1,8 @@
-// src/pages/About.js
+
 import React from 'react';
 
 const About = () => (
-  <div className="about-page p-8 bg-blue-100 h-[100vh]">
+  <div className="about-page p-8 bg-gradient-to-r from-red-200 to-blue-100 h-[100vh]">
     <h1 className="text-3xl font-bold mb-4">About Us</h1>
     <section className="history mb-8">
       <h2 className="text-2xl font-semibold mb-2">Our History</h2>

@@ -1,4 +1,4 @@
-// src/components/Carousel.js
+
 import React from 'react';
 import { Carousel as ResponsiveCarousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
@@ -34,17 +34,26 @@ const Carousel = () => (
       <p className="legend bg-gray-800  md:block text-white p-2 rounded">Way TO Hogwarts</p>
     </div>
     <div className="h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] w-full">
-      <img src="./images/schoolevent8.jpg" alt="Event 8" className="h-full w-full object-cover" />
+      <img src="./images/schoolevent8.jpg" alt="Event 8" className="h-full w-full object-contain" />
       <p className="legend bg-gray-800  md:block text-white p-2 rounded">Big Watch tower</p>
     </div>
     <div className="h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] w-full">
-      <img src="./images/schoolevent9.jpg" alt="Event 9" className="h-full w-full object-cover" />
+      <img src="./images/schoolevent9.jpg" alt="Event 9" className="h-full w-full object-contain" />
       <p className="legend bg-gray-800  md:block text-white p-2 rounded">Uniform</p>
     </div>
     <div className="h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] w-full">
-      <img src="./images/schoolevent10.jpg" alt="Event 10" className="h-full w-full object-cover" />
+      <img src="./images/schoolevent10.jpg" alt="Event 10" className="h-full w-full object-contain" />
       <p className="legend bg-gray-800  md:block text-white p-2 rounded">Dress For different Catagories</p>
     </div>
+    
+    {/* <div className="h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] w-full">
+  <video className="h-full w-full object-cover" controls>
+    <source src="./images/schoolvideo.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <p className="legend bg-gray-800 md:block text-white p-2 rounded">Uniform</p>
+</div> */}
+
   </ResponsiveCarousel>
 );
 

@@ -1,4 +1,4 @@
-// src/pages/Gallery.js
+
 import React from 'react';
 import GalleryFilter from '../components/GalleryFilter';
 
