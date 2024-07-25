@@ -26,7 +26,25 @@ To get started with this project, you'll need to install the required dependenci
    git clone https://github.com/your-username/school-website.git
    cd school-website
 
+## This will install the following dependencies:
 
+@react-google-maps/api: Google Maps API for React
+@reduxjs/toolkit: Redux Toolkit for state management
+@tailwindcss/forms: Tailwind CSS forms plugin
+@testing-library/jest-dom: Custom jest matchers for DOM elements
+@testing-library/react: Testing utilities for React
+@testing-library/user-event: User event simulation for testing
+react: React library
+react-dom: React DOM library
+react-icons: React components for popular icons
+react-redux: React bindings for Redux
+react-responsive-carousel: Responsive carousel for React
+react-router-dom: Routing library for React
+react-scripts: Scripts for Create React App
+react-select: Select input control for React
+redux: Redux library
+tailwindcss: Utility-first CSS framework
+web-vitals: Web Vitals measurement library
 
 ## Available Scripts
 
