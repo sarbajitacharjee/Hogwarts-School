@@ -6,7 +6,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 const Carousel = () => (
   <ResponsiveCarousel showArrows autoPlay infiniteLoop>
     <div className="h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] w-full">
-      <img src="/images/schoolevent1.jpg" alt="Event 1" className="h-full w-full object-contain" />
+      <img src="images/schoolevent1.jpg" alt="Event 1" className="h-full w-full object-contain" />
       <p className="legend bg-gray-800    md:block text-white p-2 rounded">Railway Station to Hogwarts</p>
     </div>
     <div className="h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] w-full">
