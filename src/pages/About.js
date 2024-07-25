@@ -2,8 +2,10 @@
 import React from 'react';
 
 const About = () => (
-  <div className="about-page p-8 bg-gradient-to-r from-red-200 to-blue-100 h-[100vh]">
-    <h1 className="text-3xl font-bold mb-4">About Us</h1>
+  <div className="about-page p-8 bg-gradient-to-r from-red-300 to-blue-200 h-[100vh]">
+    <h1 className="text-3xl text-center font-bold mb-4">About Us</h1>
+    <img src='./images/Aboutus.jpg' alt='award' width={300}/>
+    
     <section className="history mb-8">
       <h2 className="text-2xl font-semibold mb-2">Our History</h2>
       <p className="text-gray-700 text-md leading-relaxed">

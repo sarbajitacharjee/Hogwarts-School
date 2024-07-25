@@ -12,3 +12,25 @@
     text-decoration-color: red;
   }
   
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+  }
+
+  /* Example styling */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-item img, .gallery-item video {
+  width: 100%;
+  height: auto;
+}
+
+.filter-container {
+  margin-bottom: 1rem;
+}

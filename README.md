@@ -1,6 +1,32 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# School Website
+
+## Project Overview
+
+This is a modern school website built with React, Tailwind CSS, and various other libraries. The site includes pages for admissions, academics, contact information, student life, and more. It also integrates Google Maps and features a responsive carousel for showcasing events.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Scripts](#scripts)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Development](#development)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+To get started with this project, you'll need to install the required dependencies. Follow these steps:
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/school-website.git
+   cd school-website
+
+
 
 ## Available Scripts
 
