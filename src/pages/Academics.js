@@ -2,7 +2,7 @@
 import React from 'react';
 import '../index.css'
 const Academics = () => (
-  <div className="academics-page p-4 md:p-8  bg-gray-100 min-h-screen">
+  <div className="academics-page p-4 md:p-8  bg-blue-100 min-h-screen">
     <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 border-b-4 border-gray-800 pb-2">Academics</h1>
     
     <section className="curriculum mb-8 bg-orange-400 text-lg shadow-lg rounded-lg p-4 md:p-6 lg:p-8">
