@@ -9,7 +9,7 @@ const Home = () => (
     
     {/* Quick Links Section */}
     <section className="quick-links p-4  md:p-8">
-      <div className="container  mx-auto text-2xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="container  mx-auto text-2xl text-semibold grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <a href="/about" className="bg-blue-500 text-white p-4 rounded-lg shadow-lg hover:bg-blue-600 transition-colors duration-300">
           About Us
         </a>

@@ -6,6 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
+<>
     <nav className="bg-gray-800 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-lg font-bold">Hogwarts</Link>
@@ -52,6 +53,8 @@ const Navbar = () => {
         </div>
       )}
     </nav>
+      
+    </>
   );
 };
 
