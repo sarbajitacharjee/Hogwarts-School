@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import logo from '../assets/hogwarts.png'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -9,7 +9,8 @@ const Navbar = () => {
 <>
     <nav className="bg-gray-800 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-lg font-bold">Hogwarts</Link>
+       
+        <Link to="/" className="text-lg font-bold flex justify-center items-center "> <img src={logo} alt="logo" width={40} /> Hogwarts </Link>
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="block md:hidden text-white focus:outline-none"

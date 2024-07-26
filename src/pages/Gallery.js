@@ -2,13 +2,18 @@
 import React, { useState, useEffect } from 'react';
 import GalleryFilter from '../components/GalleryFilter';
 import GalleryItem from '../components/GalleryItem ';
-
+import schoolevent2 from  '../assets/schoolevent2.jpg'
+import schoolevent1 from  '../assets/schoolevent1.jpg'
+import schoolevent7 from  '../assets/schoolevent7.jpg'
+import schoolevent6 from  '../assets/schoolevent6.jpg'
+import schoolevent4 from  '../assets/schoolevent4.jpg'
 // Sample data
 const sampleData = [
-  { id: 1, type: 'event', date: '2024-07-24', media: './images/schoolevent2.jpg' },
-  { id: 2, type: 'activity', date: '2024-07-24', media: './images/schoolevent3.jpg' },
-  { id: 2, type: 'event', date: '2024-01-01', media: './images/schoolevent5.jpg' },
-  { id: 2, type: 'activity', date: '2024-01-01', media: './images/schoolevent7.jpg' },
+  { id: 1, type: 'event', date: '2024-07-24', media: schoolevent2 },
+  { id: 2, type: 'activity', date: '2024-07-24', media: schoolevent1 },
+  { id: 2, type: 'event', date: '2024-01-01', media: schoolevent6 },
+  { id: 2, type: 'activity', date: '2024-01-01', media: schoolevent7 },
+  { id: 2, type: 'activity', date: '2024-01-01', media: schoolevent4 },
   // Add more items
 ];
 
