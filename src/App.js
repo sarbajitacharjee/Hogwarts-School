@@ -15,8 +15,9 @@ const App = () => (
   <Router>
     <Navbar />
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
+
+      <Route path="/" element={<Home />}  />
+      <Route path="/about" element={<About />} onClick={() => window.location.reload()} />
       <Route path="/academics" element={<Academics />} />
       <Route path="/admissions" element={<Admissions />} />
       <Route path="/faculty" element={<Faculty />} />
