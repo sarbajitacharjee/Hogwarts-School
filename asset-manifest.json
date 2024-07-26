@@ -1,16 +1,33 @@
 {
   "files": {
     "main.css": "/Hogwarts-School/static/css/main.b17758a2.css",
-    "main.js": "/Hogwarts-School/static/js/main.3cbe680f.js",
+    "main.js": "/Hogwarts-School/static/js/main.f82ef4df.js",
     "static/js/453.00a81ccd.chunk.js": "/Hogwarts-School/static/js/453.00a81ccd.chunk.js",
+    "static/media/mypicture.jpg": "/Hogwarts-School/static/media/mypicture.8f3183e4c59da099a93c.jpg",
+    "static/media/extra.jpg": "/Hogwarts-School/static/media/extra.65bd181e94354e004d0d.jpg",
+    "static/media/hogwarts.png": "/Hogwarts-School/static/media/hogwarts.1cf84289aff1e2186618.png",
+    "static/media/schoolevent7.jpg": "/Hogwarts-School/static/media/schoolevent7.d6710e34f2fd4e17830c.jpg",
+    "static/media/schoolevent9.jpg": "/Hogwarts-School/static/media/schoolevent9.4481a0b7687842893a2e.jpg",
+    "static/media/schoolevent10.jpg": "/Hogwarts-School/static/media/schoolevent10.4f731426a53261bf58e6.jpg",
+    "static/media/schoolevent1.jpg": "/Hogwarts-School/static/media/schoolevent1.bfc2b451fffd47055952.jpg",
+    "static/media/schoolevent6.jpg": "/Hogwarts-School/static/media/schoolevent6.2313560f76339eaf9b35.jpg",
+    "static/media/sports.webp": "/Hogwarts-School/static/media/sports.62c1944b3a666172d3d0.webp",
+    "static/media/schoolevent5.jpg": "/Hogwarts-School/static/media/schoolevent5.d61b5b4a391cd575d766.jpg",
+    "static/media/schoolevent8.jpg": "/Hogwarts-School/static/media/schoolevent8.7207253ec41667dc46ee.jpg",
+    "static/media/schoolevent3.jpg": "/Hogwarts-School/static/media/schoolevent3.1a61ab0a9e847fea54ee.jpg",
+    "static/media/schoolevent2.jpg": "/Hogwarts-School/static/media/schoolevent2.29fc558969ee8abb1e6d.jpg",
+    "static/media/award.avif": "/Hogwarts-School/static/media/award.b48f1215cc01ef4d4a2c.avif",
+    "static/media/gold.jpg": "/Hogwarts-School/static/media/gold.8049e09aec3a9eb1d1da.jpg",
+    "static/media/schoolevent4.jpg": "/Hogwarts-School/static/media/schoolevent4.354cb2603c5a4acd16b8.jpg",
     "static/media/Aboutus.jpg": "/Hogwarts-School/static/media/Aboutus.f8c22c8c3b832312d1fe.jpg",
+    "static/media/clubs.png": "/Hogwarts-School/static/media/clubs.d6796da6b7000ac2b503.png",
     "index.html": "/Hogwarts-School/index.html",
     "main.b17758a2.css.map": "/Hogwarts-School/static/css/main.b17758a2.css.map",
-    "main.3cbe680f.js.map": "/Hogwarts-School/static/js/main.3cbe680f.js.map",
+    "main.f82ef4df.js.map": "/Hogwarts-School/static/js/main.f82ef4df.js.map",
     "453.00a81ccd.chunk.js.map": "/Hogwarts-School/static/js/453.00a81ccd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b17758a2.css",
-    "static/js/main.3cbe680f.js"
+    "static/js/main.f82ef4df.js"
   ]
 }
