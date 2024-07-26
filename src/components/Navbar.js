@@ -31,26 +31,26 @@ const Navbar = () => {
           </svg>
         </button>
         <div className="hidden md:flex space-x-4">
-          <Link to="/" className="text-lg hover:underline hover:text-gray-300 transition duration-300 ease-in-out">Home</Link>
-          <Link to="/about" className="text-lg hover:underline hover:text-gray-300 transition duration-300 ease-in-out">About Us</Link>
-          <Link to="/academics" className="text-lg hover:underline hover:text-gray-300 transition duration-300 ease-in-out">Academics</Link>
-          <Link to="/admissions" className="text-lg hover:underline hover:text-gray-300 transition duration-300 ease-in-out">Admissions</Link>
-          <Link to="/faculty" className="text-lg hover:underline hover:text-gray-300 transition duration-300 ease-in-out">Faculty</Link>
-          <Link to="/students" className="text-lg hover:underline hover:text-gray-300 transition duration-300 ease-in-out">Students</Link>
-          <Link to="/gallery" className="text-lg hover:underline hover:text-gray-300 transition duration-300 ease-in-out">Gallery</Link>
-          <Link to="/contact" className="text-lg hover:underline hover:text-gray-300 transition duration-300 ease-in-out">Contact Us</Link>
+          <Link to="/" className="text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">Home</Link>
+          <Link to="/about" className="text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">About Us</Link>
+          <Link to="/academics" className="text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">Academics</Link>
+          <Link to="/admissions" className="text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">Admissions</Link>
+          <Link to="/faculty" className="text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">Faculty</Link>
+          <Link to="/students" className="text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">Students</Link>
+          <Link to="/gallery" className="text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">Gallery</Link>
+          <Link to="/contact" className="text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">Contact Us</Link>
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden mt-2 space-y-2">
-          <Link to="/" className="block text-lg hover:underline hover:text-gray-300 transition duration-300 ease-in-out">Home</Link>
-          <Link to="/about" className="block text-lg hover:underline hover:text-gray-300 transition duration-300 ease-in-out">About Us</Link>
-          <Link to="/academics" className="block text-lg hover:underline hover:text-gray-300 transition duration-300 ease-in-out">Academics</Link>
-          <Link to="/admissions" className="block text-lg hover:underline hover:text-gray-300 transition duration-300 ease-in-out">Admissions</Link>
-          <Link to="/faculty" className="block text-lg hover:underline hover:text-gray-300 transition duration-300 ease-in-out">Faculty</Link>
-          <Link to="/students" className="block text-lg hover:underline hover:text-gray-300 transition duration-300 ease-in-out">Students</Link>
-          <Link to="/gallery" className="block text-lg hover:underline hover:text-gray-300 transition duration-300 ease-in-out">Gallery</Link>
-          <Link to="/contact" className="block text-lg hover:underline hover:text-gray-300 transition duration-300 ease-in-out">Contact Us</Link>
+        <div className="md:hidden mt-2 flex flex-col justify-center  items-center space-y-2">
+          <Link to="/" className="block text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">Home</Link>
+          <Link to="/about" className="block text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">About Us</Link>
+          <Link to="/academics" className="block text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">Academics</Link>
+          <Link to="/admissions" className="block text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">Admissions</Link>
+          <Link to="/faculty" className="block text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">Faculty</Link>
+          <Link to="/students" className="block text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">Students</Link>
+          <Link to="/gallery" className="block text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">Gallery</Link>
+          <Link to="/contact" className="block text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">Contact Us</Link>
         </div>
       )}
     </nav>

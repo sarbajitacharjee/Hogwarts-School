@@ -4,14 +4,14 @@ import { HiDocumentDownload, HiCalendar } from 'react-icons/hi';
 
 const Admissions = () => (
   <div className="admissions-page bg-gradient-to-r from-red-300 to-blue-200 min-h-screen p-6 lg:p-12">
-    <div className="container mx-auto">
-      <h1 className="text-4xl font-extrabold text-gray-900 mb-8 text-center">Admissions</h1>
+    <div className="container mx-auto ">
+      <h1 className="text-5xl font-extrabold text-gray-900 mb-8 text-center">Admissions</h1>
       
-      <section className="process mb-12 bg-white shadow-lg rounded-lg p-6">
+      <section className="process mb-12  bg-orange-400 shadow-lg rounded-lg p-6">
         <h2 className="text-3xl font-semibold text-gray-800 mb-4 flex items-center">
           <HiCalendar className="text-blue-600 mr-3" /> Admission Process
         </h2>
-        <p className="text-gray-700 text-lg leading-relaxed">
+        <p className="text-gray-900 text-lg leading-relaxed">
           {/* Add details about the admission process here */}
           Our admission process is designed to be straightforward and efficient. We invite you to explore our requirements and prepare your application with care. For more detailed information, please refer to our guidelines and steps outlined below.
         </p>
@@ -30,7 +30,7 @@ const Admissions = () => (
         </a>
       </section>
       
-      <section className="important-dates text-lg bg-white shadow-lg rounded-lg p-6">
+      <section className="important-dates text-lg bg-green-500 shadow-lg rounded-lg p-6">
         <h2 className="text-3xl font-semibold text-gray-900 mb-4 flex items-center">
           <HiCalendar className="text-blue-600 mr-3" /> Important Dates
         </h2>
