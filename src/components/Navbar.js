@@ -5,6 +5,7 @@ import logo from '../assets/hogwarts.png'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  
   return (
 <>
     <nav className="bg-gray-800 text-white p-4">
