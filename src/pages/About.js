@@ -2,8 +2,10 @@
 import React from 'react';
 import ph1 from '../assets/Aboutus.jpg'
 const About = () => (
-  <div className="about-page p-8 bg-gradient-to-r from-red-300 to-blue-200 h-[100vh]">
-    <h1 className="text-3xl text-center font-bold mb-4">About Us</h1>
+  <div className="about-page p-8 bg-gradient-to-r from-red-300 to-blue-200  min-h-screen ">
+    {/* <h1 className="text-3xl text-center font-bold mb-4 underline">About Us</h1> */}
+    <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 border-b-4 border-gray-800 pb-2">About Us</h1>
+
     <img src={ph1} alt='award' width={300}/>
     
     <section className="history mb-8">

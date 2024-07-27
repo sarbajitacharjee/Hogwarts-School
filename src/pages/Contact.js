@@ -5,7 +5,8 @@ import { HiLocationMarker, HiPhone, HiMail } from "react-icons/hi";
 const Contact = () => {
   return (
     <div className="contact-page p-8 min-h-screen bg-gradient-to-r from-blue-50 to-blue-100">
-      <h1 className="text-4xl font-bold mb-6 text-center">Contact Us</h1>
+    <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 border-b-4 border-gray-800 pb-2">Contact us</h1>
+    
       <div className="flex flex-col md:flex-row mb-8">
         <div className="contact-info md:w-1/2 p-6 bg-gradient-to-l from-red-300 to-blue-200 text-xl rounded-lg shadow-lg mb-8 md:mb-0 md:mr-4">
           <h2 className="text-3xl font-semibold mb-4 ">
@@ -59,23 +60,27 @@ const Contact = () => {
       </div>
 
       {/* ==================== Goggle Map ====================== */}
-      <div className="google-map bg-purple-200 m-20 rounded-lg shadow-lg">
-          <h2 className="text-xl font-bold text-center">
-            Visit Our Location on Google Maps
-          </h2>
-        <div style={{ width: "100%", height: "400px" }}>
-          
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2473.320412388956!2d-0.4181051!3d51.6905814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48764103e950758d%3A0x2b152593ceb59b52!2sHogwarts%20Castle!5e0!3m2!1sen!2sin!4v1722068570802!5m2!1sen!2sin"
-            width="100%"
-            height="100%"
-            style={{border: "5" }}
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
+      <div className="google-map bg-purple-200 m-5 sm:m-10 md:m-20 rounded-lg shadow-lg">
+      <h2 className="text-xl font-bold text-center p-4">
+        Visit Our Location on Google Maps
+      </h2>
+      <div className="map-container" style={{ position: 'relative', width: '100%', paddingBottom: '56.25%' }}>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2473.320412388956!2d-0.4181051!3d51.6905814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48764103e950758d%3A0x2b152593ceb59b52!2sHogwarts%20Castle!5e0!3m2!1sen!2sin!4v1722068570802!5m2!1sen!2sin"
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            border: 'none',
+          }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
+    </div>
     </div>
   );
 };

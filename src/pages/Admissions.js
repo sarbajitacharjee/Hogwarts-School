@@ -4,8 +4,9 @@ import { HiDocumentDownload, HiCalendar } from 'react-icons/hi';
 
 const Admissions = () => (
   <div className="admissions-page bg-gradient-to-r from-red-300 to-blue-200 min-h-screen p-6 lg:p-12">
-    <div className="container mx-auto ">
-      <h1 className="text-5xl font-extrabold text-gray-900 mb-8 text-center">Admissions</h1>
+    <div className="container  ">
+    <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 border-b-4 border-gray-800 pb-2">Admission</h1>
+
       
       <section className="process mb-12  bg-orange-400 shadow-lg rounded-lg p-6">
         <h2 className="text-3xl font-semibold text-gray-800 mb-4 flex items-center">

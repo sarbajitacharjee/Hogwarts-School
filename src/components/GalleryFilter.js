@@ -13,7 +13,7 @@ const GalleryFilter = ({ setFilters }) => {
   };
 
   return (
-    <div className="filter-container">
+    <div className="filter-container ">
       <select value={type} onChange={e => setType(e.target.value)}>
         <option value="">All Types</option>
         <option value="event">Event</option>
@@ -24,7 +24,7 @@ const GalleryFilter = ({ setFilters }) => {
         value={date} 
         onChange={e => setDate(e.target.value)}
       />
-      <button onClick={handleFilterChange}>Apply Filters</button>
+      <button onClick={handleFilterChange} className='p-3 m-1 rounded-lg bg-blue-500'>Apply Filters</button>
     </div>
   );
 };

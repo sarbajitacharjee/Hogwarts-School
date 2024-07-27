@@ -36,9 +36,9 @@ const GalleryPage = () => {
   }, [filters, items]);
 
   return (
-    <div>
+    <div className='m-2'>
       <GalleryFilter setFilters={setFilters} />
-      <div className="gallery-grid">
+      <div className="gallery-grid ">
         {filteredItems.map(item => (
           <GalleryItem key={item.id} media={item.media} />
         ))}

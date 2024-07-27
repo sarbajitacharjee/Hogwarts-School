@@ -7,7 +7,8 @@ import award2 from '../assets/extra.jpg'
 
 const Students = () => (
   <div className="students-page p-6 lg:p-12 bg-gradient-to-r from-red-300 to-blue-200 min-h-screen">
-    <h1 className="text-4xl font-bold text-center mb-8">Our Students</h1>
+    
+    <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 border-b-4 border-gray-800 pb-2">Students Carrer</h1>
     
     {/* Student Life Section */}
     <section className="student-life mb-12">
@@ -21,7 +22,7 @@ const Students = () => (
           </p>
         </div>
         <div className="flex-1 bg-white p-6 rounded-lg shadow-lg">
-          <img src={club} alt='Clubs and Societies' className="w-full h-64  mb-4"/>
+          <img src={club} alt='Clubs and Societies' className="w-full h-64  mb-4 object-contain md:object-contain"/>
           <h3 className="text-2xl font-semibold mb-3">Clubs and Societies</h3>
           <p className="text-gray-700 leading-relaxed">
             With numerous clubs and societies to choose from, students can pursue their passions, whether it’s debating, coding, or environmental activism. These groups foster collaboration and leadership skills.
