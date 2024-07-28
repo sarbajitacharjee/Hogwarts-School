@@ -24,6 +24,7 @@ const App = () => (
         <Route path="/students" element={<Students />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Home />} /> {/* When Website Open This Page show First */}
       </Routes>
     </ScrollToTop>
   </Router>

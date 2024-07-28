@@ -14,7 +14,7 @@ const Navbar = () => {
         <Link to="/" className="text-lg font-bold flex justify-center items-center "> <img src={logo} alt="logo" width={40} /> Hogwarts </Link>
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="block md:hidden text-white focus:outline-none"
+          className="block lg:hidden text-white focus:outline-none"
         >
           <svg
             className="w-6 h-6"
@@ -31,7 +31,7 @@ const Navbar = () => {
             />
           </svg>
         </button>
-        <div className="hidden md:flex space-x-4">
+        <div className="hidden lg:flex space-x-4">
           <Link to="/" className="text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">Home</Link>
           <Link to="/about" className="text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">About Us</Link>
           <Link to="/academics" className="text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">Academics</Link>
@@ -43,7 +43,7 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden mt-2 flex flex-col justify-center  items-center space-y-2">
+        <div className="lg:hidden mt-2 flex flex-col justify-center  items-center space-y-2">
           <Link to="/" className="block text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">Home</Link>
           <Link to="/about" className="block text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">About Us</Link>
           <Link to="/academics" className="block text-lg hover:underline hover:text-green-300 transition duration-300 ease-in-out">Academics</Link>
