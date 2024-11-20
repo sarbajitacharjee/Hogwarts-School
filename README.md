@@ -7,7 +7,7 @@
 This is a modern school website built with React, Tailwind CSS, and various other libraries. The site includes pages for admissions, academics, contact information, student life, and more. It also integrates Google Maps and features a responsive carousel for showcasing events.
 
 # You Can Watch The Live Website on   
-https://sarbajitacharjee.github.io/Hogwarts-School/
+[Demo](https://sarbajitacharjee.github.io/Hogwarts-School/)
 ## Table of Contents
 
 - [Installation](#installation)
